@@ -14,7 +14,7 @@ headers = {
 }
 
 
-driver = webdriver.Chrome('/Users/nigelmunar/Desktop/chromedriver')
+driver = webdriver.Chrome('Path')
 driver.implicitly_wait(10)
 
 t = time.time()
