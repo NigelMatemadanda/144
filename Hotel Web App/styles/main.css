@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+
+/*Custom properties*/
+:root {
+    --dark-color: black;
+    --blue-solid: #0032a8;
+    --blue-transparent: rgba(0, 0, 255, .5);
+    --blue-transparent-alt: rgba(0, 0, 255, .5);
+    --blue-light: #506cfb;
+    --yellow-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--blue-light));
+    --gradient-color-alt: linear-gradient(to right, var(--blue-light), var(--yellow-solid));
+}
+
+body {
+    /*font-family: 'Open Sans', sans-serif;*/
+    color: var(--dark-color);
+}
+a {
+    color: var(--dark-color);
+}
+/*------------------------------HEADER--------------------------------------------*/
+header {
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+
+header form {
+    float:right;
+    margin:0;
+    padding:0 10px 0 0;
+}
+
+header form input[type=text] {
+    border:0px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+header form input[type=password] {
+    border:0px;
+    padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+}
+header form input[type=submit] {
+    border: 2px solid rgba(255,255,255, .7);
+    padding: 10px;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/*----------------------------NAV---------------------------------------------*/
+nav {
+    /*background-color: var(--blue-transparent);*/
+    padding:10px 0;
+}
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--yellow-solid);
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav ul li {
+    display:inline;
+    font-size:1.2em;
+    padding: 0 20px;
+
+}
+
+
+/*----------------------------BODY--------------------------------------------*/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    background-color:rgba(173, 209, 249, 1);
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+    width:100%;
+    margin:0 auto;
+    background-color:white;
+}
+
+
+/*-------------------------FOOTER---------------------------------------------*/
+
+footer {
+    padding: 30px 0 10px 0;
+    text-align:center;
+}
+
+/*-----------------------MAIN FORM--------------------------------------------------*/
+
+main form {
+    max-width: 820px;
+    padding:20px;
+    background: rgba(0,0,0,0.3);
+    border-radius:10px;
+    color: rgba(255,255,255, 0.7);
+}
+
+main form ol {
+    list-style-type: none;
+}
+
+main form li {
+    padding: 0 0 5px 0;
+}
+
+main form ul  {
+    list-style-type:none;
+}
+
+main form input[type=text] {
+    border:0px;
+    border: 1px solid rgba(255,255,255, 0.7);
+    padding: 10px;
+    /*box-shadow:0 0 15px 4px rgba(0,0,0,0.04);*/
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+}
+main form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+main form input[type=submit]  {
+    border: 2px solid rgba(255,255,255, .7);
+    padding: 10px;
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+main form input[type=date]  {
+    border: 1px solid rgba(255,255,255, 0.7);
+    padding: 10px;
+    /*box-shadow:0 0 15px 4px rgba(0,0,0,0.04);*/
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+main {
+    background-image: url('../media/2.jpg');
+    height: 800px;
+}
+main ::placeholder {
+    color: white;
+    opacity: 1;
+}
+main h2{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font:;
+}
+select {
+    border: 1px solid rgba(255,255,255, 0.7);
+    padding: 10px;
+    /*box-shadow:0 0 15px 4px rgba(0,0,0,0.04);*/
+    border-radius:10px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+table {
+    /*border-collapse: collapse;*/
+    width: 100%;
+    /*color: white;*/
+    /*font-family: monospace;*/
+    font-size: 20px;
+    text-align: left;
+}
+th{
+    background-color: var(--dark-color);
+    color: white;
+}
+tr:nth-child(even) {background-color: rgba(0, 0, 0, 0.2);}
